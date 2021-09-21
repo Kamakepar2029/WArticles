@@ -82,6 +82,7 @@ html {
     max-width: 125px;
     border-radius: 30px;
     box-shadow: 0px 0px 0px 0px #110dff96;
+    cursor:pointer;
 }
 
 .hdr_logo_box {
@@ -112,6 +113,7 @@ html {
     justify-content: center;
     align-items: center;
     margin-right: 15px;
+    cursor:pointer;
 }
 
 .hdr_menu {
@@ -498,6 +500,7 @@ a.menu__item {
     justify-content: center;
     align-items: center;
     margin: 15px;
+    cursor: pointer;
 }
 
 .btn__right__box {

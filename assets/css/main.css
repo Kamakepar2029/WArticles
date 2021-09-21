@@ -1,0 +1,514 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;0,800;1,400;1,700&display=swap');
+
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+}
+
+*{
+    font-family: 'Nunito', sans-serif;
+}
+
+.hdr {
+    display: flex;
+    width: calc(100% - 160px);
+    background: transparent;
+    justify-content: center;
+    position: absolute;
+    top: 0px;
+    padding: 10px 80px;
+}
+
+.content__box {
+    height: 100%;
+    width: 100%;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    padding-top: 40px;
+    height: calc(100% - 40px);
+    background-image: url('/assets/images/gradient1.jpg');
+    background-size: cover;
+    justify-content: space-around;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+.content__title {
+    padding: 15px 0px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.content__right {
+    max-width: 453px;
+    background-position-x: 50% !important;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-image: url('/assets/images/notebook.png');
+    background-repeat: no-repeat;
+    background-position: 0px;
+    padding: 10px 20px;
+    margin-right: 20px;
+}
+
+.content__left {
+    padding: 10px 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content__description {
+    color: #5a5a5a;
+    font-size: 20px;
+    margin-bottom: 30px;
+    max-width: 300px;
+}
+
+.content__btn {
+    padding: 15px 21px;
+    background: linear-gradient(90deg, #110dff96, #0d6efff2, #110dff96);
+    display: block;
+    color: white;
+    max-width: 125px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 0px 0px #110dff96;
+}
+
+.hdr_logo_box {
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.btns {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 320px;
+}
+
+.btns > a {
+    text-decoration: none;
+    padding: 15px 21px;
+    background: linear-gradient(
+90deg, #110dff96, #0d6efff2, #110dff96);
+    display: inline-flex;
+    color: white;
+    max-width: 80px;
+    border-radius: 30px;
+    width: 100%;
+    box-shadow: 0px 0px 0px 0px #110dff96;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.hdr_menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 210px;
+    width: 100%;
+}
+
+.hdr_logo {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+a.menu__item {
+    text-decoration: none;
+    color: #383838;
+}
+
+.btns > .btns {
+    margin: 0px;
+}
+
+.plans {
+    background-image: url('/assets/images/gradient2-rev.png');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.plans__box {
+    width: calc(100% - 80px);
+    height: calc(100% - 80px);
+    background: white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.plans__box__title {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.plans__box__content {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-grow: 1;
+}
+
+
+.plans__box__content > div {
+    width: calc( 100% / 2);
+}
+
+.plans__box__content__right__box {
+    display: flex;
+    flex-direction: column;
+}
+
+.plans__box__content__right__box__item {
+    display: flex;
+    background: white;
+    padding: 10px 5px;
+    color: black;
+    width: calc(100% - 50px);
+    margin: 0px 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.plans__box__content__right__box__item__price {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;0,800;1,400;1,700&display=swap');
+
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+}
+
+*{
+    font-family: 'Nunito', sans-serif;
+}
+
+.hdr {
+    display: flex;
+    width: calc(100% - 160px);
+    background: transparent;
+    justify-content: center;
+    position: absolute;
+    top: 0px;
+    padding: 10px 80px;
+}
+
+.content__box {
+    height: 100%;
+    width: 100%;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    padding-top: 40px;
+    height: calc(100% - 40px);
+    background-image: url('/assets/images/gradient1.jpg');
+    background-size: cover;
+    justify-content: space-around;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+.content__title {
+    padding: 15px 0px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.content__right {
+    max-width: 453px;
+    background-position-x: 50% !important;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-image: url('/assets/images/notebook.png');
+    background-repeat: no-repeat;
+    background-position: 0px;
+    padding: 10px 20px;
+    margin-right: 20px;
+}
+
+.content__left {
+    padding: 10px 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content__description {
+    color: #5a5a5a;
+    font-size: 20px;
+    margin-bottom: 30px;
+    max-width: 300px;
+}
+
+.content__btn {
+    padding: 15px 21px;
+    /*background: linear-gradient(90deg, #110dff96, #0d6efff2, #110dff96);*/
+    background: #0d6efff2;
+    display: block;
+    color: white;
+    max-width: 125px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 0px 0px #110dff96;
+}
+
+.hdr_logo_box {
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.btns {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 320px;
+}
+
+.btns > a {
+    text-decoration: none;
+    padding: 15px 21px;
+    /*background: linear-gradient(
+90deg, #110dff96, #0d6efff2, #110dff96);*/
+    background: #0d6efff2;
+    display: inline-flex;
+    color: white;
+    max-width: 80px;
+    border-radius: 30px;
+    width: 100%;
+    box-shadow: 0px 0px 0px 0px #110dff96;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.hdr_menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 210px;
+    width: 100%;
+}
+
+.hdr_logo {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+a.menu__item {
+    text-decoration: none;
+    color: #383838;
+}
+
+.btns > .btns {
+    margin: 0px;
+}
+
+.plans {
+    background-image: url('/assets/images/gradient2-rev.png');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.plans__box {
+    width: calc(100% - 80px);
+    height: calc(100% - 80px);
+    background: white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.plans__box__title {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.plans__box__content {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-grow: 1;
+}
+
+
+.plans__box__content > div {
+    width: calc( 100% / 2);
+}
+
+.plans__box__content__right__box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.plans__box__content__right__box__item.checked {
+    display: flex;
+    background: #0d6efff2;
+    padding: 10px 5px;
+    color: white;
+    width: calc(100% - 50px);
+    margin: 0px 20px;
+    border-radius: 5px;
+    border: 1px solid #0d6efff2;
+}
+
+.plans__box__content__right__box__item__price {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.plans__box__content__right__box__item__checkbox {
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.checkbox_new {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 20px;
+    width: 20px;
+    border: 2px solid;
+    border-radius: 50%;
+}
+
+.checkbox_new.checked::after {content: "\2713";display: flex;align-items: center;justify-content: center;font-size: 20px;}
+
+.plans__box__content__right__box__item__center {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    padding: 2px 10px;
+}
+
+.plans__box__content__right__box__item__center__title {
+    font-size: 25px;
+}
+
+.plans__box__content__right__box__item__center__birk__down {
+    width: 95px;
+    border: 1px solid;
+    text-align: center;
+    border-radius: 15px;
+    font-size: 15px;
+}
+
+.plans__box__content__right__box__item__price__cost {
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.plans__box__content__right__box__item__price__type {
+    font-size: 14px;
+}
+
+.plans__box__content__right__box__item {
+    margin-bottom: 30px !important;
+}
+
+.plans__box__content__right__box__item:hover {
+    box-shadow: 0px 3px 11px 0px lightgrey;
+}
+
+.plans__box__content__left__box__title {
+    text-align: center;
+    font-size: 20px;
+}
+
+.plans__box__content__left__box {
+    margin: 10px;
+    padding: 10px;
+    background: #0d6efff2;
+    color: white;
+    border-radius: 5px;
+    margin-left: 30px !important;
+}
+
+.plans__box__content__left__box__item {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 15px;
+}
+
+.plans__box__content__left__box__item__char {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 15px 21px;
+    /*background: linear-gradient( 
+90deg, #110dff96, #0d6efff2, #110dff96);*/
+    background: #0d6efff2;
+    display: inline-flex;
+    color: white;
+    max-width: 100px;
+    border-radius: 30px;
+    width: 100%;
+    box-shadow: 0px 0px 0px 0px #110dff96;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+
+.btn__right__box {
+    text-align: right;
+}
+
+.attributes {
+    background: black;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.attributes > * {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}

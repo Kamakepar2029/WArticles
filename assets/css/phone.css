@@ -1,0 +1,40 @@
+@media screen and (max-width: 600px) {
+    .hdr{
+        padding: 10px 20px;
+        width: calc(100% - 40px);
+    }
+
+    .hdr_logo {
+        font-size:20px;
+    }
+
+    .btns > a{
+        margin-right: 5px;
+    }
+
+    .btns > .register{
+        display:none;
+    }
+
+    .content__right{
+        display: none;
+    }
+
+    .plans__box__content{
+        flex-direction:column;
+    }
+
+    .plans__box__content__left__box{
+        width: calc(100% - 80px) !important;
+        overflow: auto;
+    }
+
+    .plans__box__content__right__box{
+        width: calc(100% - 20px) !important;
+        overflow: auto;
+    }
+
+    .plans__box__content__right__box__item{
+        width: calc(100% - 52px) !important;
+    }
+}

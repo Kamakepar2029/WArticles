@@ -107,5 +107,5 @@ a('#pro_plan').onclick = function(){
 }
 
 a('.content__btn').onclick = function(){
-    document.location.href = a('.plans').scrollIntoView();
+    a('.plans').scrollIntoView();
 }

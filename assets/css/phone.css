@@ -42,4 +42,13 @@
         height: auto;
         min-height: 100%;
     }
+
+    .plans__box{
+        width: calc(100% - 12px);
+        height: calc(100% - 12px);
+    }
+    
+    .plans{
+        padding-bottom: 20px;
+    }
 }

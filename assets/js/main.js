@@ -21,14 +21,14 @@ a('#free_plan').onclick = function(){
                         </div>
                         <div class="plans__box__content__left__box__item">
                             <div class="plans__box__content__left__box__item__text">Only Document Team</div>
-                            <div class="plans__box__content__left__box__item__char" style="color:rgb(6, 255, 6);">✓</div>
+                            <div class="plans__box__content__left__box__item__char" style="color:orange;">✓</div>
                         </div>
                         <div class="plans__box__content__left__box__item">
                             <div class="plans__box__content__left__box__item__text">48 hour Support</div>
                             <div class="plans__box__content__left__box__item__char" style="color:rgb(6, 255, 6);">✓</div>
                         </div>
                         <div class="plans__box__content__left__box__item">
-                            <div class="plans__box__content__left__box__item__text">Bind your own domain</div>
+                            <div class="plans__box__content__left__box__item__text">Bind your domain</div>
                             <div class="plans__box__content__left__box__item__char" style="color:rgb(255, 24 ,24)">⨯</div>
                         </div>`;
     this.getElementsByClassName('checkbox_new')[0].className += ' checked';
@@ -64,7 +64,7 @@ a('#base_plan').onclick = function(){
                             <div class="plans__box__content__left__box__item__char" style="color:rgb(6, 255, 6);">✓</div>
                         </div>
                         <div class="plans__box__content__left__box__item">
-                            <div class="plans__box__content__left__box__item__text">Bind your 5 own domains</div>
+                            <div class="plans__box__content__left__box__item__text">Bind your 5 domains</div>
                             <div class="plans__box__content__left__box__item__char" style="color:rgb(6, 255, 6);">✓</div>
                         </div>`;
     this.getElementsByClassName('checkbox_new')[0].className += ' checked';
@@ -100,7 +100,7 @@ a('#pro_plan').onclick = function(){
                             <div class="plans__box__content__left__box__item__char" style="color:rgb(6, 255, 6);">✓</div>
                         </div>
                         <div class="plans__box__content__left__box__item">
-                            <div class="plans__box__content__left__box__item__text">Bind your ∞ own domains</div>
+                            <div class="plans__box__content__left__box__item__text">Bind your ∞ domains</div>
                             <div class="plans__box__content__left__box__item__char" style="color:rgb(6, 255, 6);">✓</div>
                         </div>`;
     this.getElementsByClassName('checkbox_new')[0].className += ' checked';

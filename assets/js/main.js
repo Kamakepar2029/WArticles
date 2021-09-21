@@ -109,3 +109,11 @@ a('#pro_plan').onclick = function(){
 a('.content__btn').onclick = function(){
     a('.plans').scrollIntoView();
 }
+
+window.addEventListener('scroll', function() {
+    if (pageYOffset > 50){
+      a('.hdr').className = 'hdr sticky';
+    }else{
+      a('.hdr').className = 'hdr';
+    }
+});

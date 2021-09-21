@@ -503,6 +503,11 @@ a.menu__item {
     cursor: pointer;
 }
 
+.hdr.sticky {
+    position: fixed;
+    backdrop-filter: blur(20px);
+}
+
 .btn__right__box {
     text-align: right;
 }

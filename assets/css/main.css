@@ -232,6 +232,7 @@ body {
     background-image: url('/assets/images/gradient1.jpg');
     background-size: cover;
     justify-content: space-around;
+    background-position: 50% 50%;
 }
 
 html {
@@ -345,6 +346,7 @@ a.menu__item {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-position: 50% 50%;
 }
 
 .plans__box {

@@ -107,7 +107,11 @@ a('#pro_plan').onclick = function(){
 }
 
 a('.content__btn').onclick = function(){
-    a('.plans').scrollIntoView();
+    window.scrollTo({
+        top: a('.plans').offsetTop-50,
+        behavior: "smooth"
+   });
+    //a('.plans').scrollIntoView();
 }
 
 window.addEventListener('scroll', function() {
@@ -117,3 +121,10 @@ window.addEventListener('scroll', function() {
       a('.hdr').className = 'hdr';
     }
 });
+
+a('.menu_item')[1].onclick = function(){
+    window.scrollTo({
+        top: a('.plans').offsetTop-50,
+        behavior: "smooth"
+   });
+}

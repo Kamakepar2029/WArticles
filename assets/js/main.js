@@ -46,7 +46,7 @@ a('#base_plan').onclick = function(){
         }
     }
     this.className += ' checked';
-    a('.plans__box__content__left__box').innerHTML = `<div class="plans__box__content__left__box__title">Availiable on Free Plan</div>
+    a('.plans__box__content__left__box').innerHTML = `<div class="plans__box__content__left__box__title">Availiable on Base Plan</div>
                         <div class="plans__box__content__left__box__item">
                             <div class="plans__box__content__left__box__item__text">50 WArticles</div>
                             <div class="plans__box__content__left__box__item__char" style="color:rgb(6, 255, 6);">✓</div>
@@ -82,7 +82,7 @@ a('#pro_plan').onclick = function(){
         }
     }
     this.className += ' checked';
-    a('.plans__box__content__left__box').innerHTML = `<div class="plans__box__content__left__box__title">Availiable on Free Plan</div>
+    a('.plans__box__content__left__box').innerHTML = `<div class="plans__box__content__left__box__title">Availiable on Pro Plan</div>
                         <div class="plans__box__content__left__box__item">
                             <div class="plans__box__content__left__box__item__text">∞ WArticles</div>
                             <div class="plans__box__content__left__box__item__char" style="color:rgb(6, 255, 6);">✓</div>

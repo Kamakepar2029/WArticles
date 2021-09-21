@@ -37,4 +37,9 @@
     .plans__box__content__right__box__item{
         width: calc(100% - 52px) !important;
     }
+
+    .plans{
+        height: auto;
+        min-height: 100%;
+    }
 }

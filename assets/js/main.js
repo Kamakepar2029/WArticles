@@ -105,3 +105,7 @@ a('#pro_plan').onclick = function(){
                         </div>`;
     this.getElementsByClassName('checkbox_new')[0].className += ' checked';
 }
+
+a('.content__btn').onclick = function(){
+    document.location.href = a('.plans').scrollIntoView();
+}

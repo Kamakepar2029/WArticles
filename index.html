@@ -3,15 +3,17 @@
     <head>
         <title>WArticles from Weebys</title>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="/assets/css/main.css?v=0.8">
-        <link rel="stylesheet" href="/assets/css/phone.css?v=0.5">
-        <link rel="stylesheet" href="/assets/css/tablet.css?v=0.5">
+        <link rel="stylesheet" href="/assets/css/main.css?v=0.7">
+        <link rel="stylesheet" href="/assets/css/phone.css?v=0.6">
+        <link rel="stylesheet" href="/assets/css/tablet.css?v=0.7">
         <meta name="viewport" content="width=device-width">
         <meta name="keywords" content="Weebys, Articles, Weebys, Warticles, Free, Pro, Service, opportunity, publish,article">
         <meta name="description" content="WArticles is a service by Weebys, which gives you an oportunity to publish an article">
         <meta name="version" content="2.0">
         <meta name="author" content="Weebys">
         <link rel="image_src" href="/assets/images/image.jpg">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     </head>
     <body>
         <div class="hdr">
@@ -23,8 +25,8 @@
                 <a class="menu__item" href="#Pricing">Pricing</a>
             </div>
             <div class="btns">
-                <a class="register">Register</a>
-                <a class="btns">Login</a>
+                <a class="register" href="#Pricing">Register</a>
+                <a class="btns" href="#Login">Login</a>
             </div>
         </div> 
         <div class="content__box header" id="Top">
@@ -122,7 +124,23 @@
         <div class="attributes">
             <a href="https://isometriclove.com">3D graphics from Isometriclove</a>
         </div>
+        <div class="login__form__box" id="Login">
+            <div class="login__form">
+                <div class="login__form__title">Sign in to view your posts</div>
+                <div class="login__form__social__signup">
+                    <i class="fa fa-google google__signup" aria-hidden="true"></i>
+                    <i class="fa fa-facebook facebook__signup" aria-hidden="true"></i>
+                    <i class="fa fa-github github__signup" aria-hidden="true"></i>
+                </div>
+                <form method="POST">
+                    <input type="text" name="username" placeholder="Username">
+                    <input type="password" name="password" placeholder="Password">
+                    <input type="submit" value="Login" name="login">
+                </form>
+                <div class="signup_signin">Not a member? Then <a href="#Pricing">Sign up</a></div>
+            </div>
+        </div>
         <script src="/assets/js/simplelib.js?v=0.1"></script>
-        <script src="/assets/js/main.js?v=0.4"></script>
+        <script src="/assets/js/main.js?v=0.5"></script>
     </body>
 </html>

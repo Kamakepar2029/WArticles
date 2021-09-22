@@ -51,4 +51,8 @@
     .plans{
         padding-bottom: 20px;
     }
+
+    .login__form__box > *{
+        width: calc(100% - 20px);
+    }
 }

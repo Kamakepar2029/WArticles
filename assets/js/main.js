@@ -122,7 +122,7 @@ window.addEventListener('scroll', function() {
     }
 });
 
-a('.menu_item')[1].onclick = function(){
+a('.menu_item', 1).onclick = function(){
     window.scrollTo({
         top: a('.plans').offsetTop-50,
         behavior: "smooth"

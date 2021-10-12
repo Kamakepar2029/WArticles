@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+<channel>
+  <title>Wartcles KSV Feed</title>
+  <link>https://warticles.weebys.space/ksv/articles</link>
+  <description>KSV Warticles</description>
+  <item>
+    <title>Проектная деятельность</title>
+    <link>https://warticles.weebys.space/ksv/articles/?p=ls1</link>
+    <description>
+       
+    </description>
+  </item>
+</channel>
